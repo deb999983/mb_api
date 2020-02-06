@@ -21,7 +21,7 @@ cd mb_api
 
 - Start the services.
 ```
-sudo ./scripts/start-service.sh
+sudo ./scripts/start-services.sh
 ```
 
 
