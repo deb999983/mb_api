@@ -2,9 +2,9 @@
 
 #### Steps to Run the project
 
-- Pull the project from github
+- Clone the project from github
 ```
-git pull origin master
+git clone https://github.com/deb999983/mb_api.git
 ```
 
 - CD into the mb_api directory of the project
