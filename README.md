@@ -4,7 +4,7 @@
 
 - Clone the project from github
 ```
-git https://github.com/deb999983/mb_api.git
+git clone https://github.com/deb999983/mb_api.git
 ```
 
 - CD into the webapp directory of the project
