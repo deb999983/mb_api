@@ -24,6 +24,8 @@ cd mb_api
 sudo ./scripts/start-services.sh
 ```
 
+**Note** : Please wait for mysql to be ready, don't terminate the process. There will be some error messages but ultimately mysql will be ready to accept connections and then migrations for the project are run.
+
 
 #### Demo
 The project is hosted at http://ec2-13-232-196-189.ap-south-1.compute.amazonaws.com/docs/
