@@ -2,6 +2,8 @@
 
 #### Steps to Run the project
 
+Project is deployed with passenger/nginx, to handle requests and responses and mysql for database.
+
 - Clone the project from github
 ```
 git clone https://github.com/deb999983/mb_api.git
@@ -12,14 +14,9 @@ git clone https://github.com/deb999983/mb_api.git
 cd mb_api
 ```
 
-- Build the service using docker-compose
+- Start the services.
 ```
-docker-compose build
-```
-
-- Start the services
-```
-./scripts/start-service.sh
+sudo ./scripts/start-service.sh
 ```
 
 
