@@ -24,9 +24,9 @@ services:
       DATABASE: "mb_api_db"
       DB_USER: "mysql"
       DB_PASSWORD: "password"
-    command: ["./home/app/mb_api/scripts/wait-for-mysql.sh", "database", "nginx"]
+    command: ["nginx"]
     ports:
-    - "8000:80"
+    - "80:80"
     volumes:
     - .:/code
     - ./data/nginx/logs:/var/log/nginx/
