@@ -99,7 +99,7 @@ DATABASES = {
 	'default': {
 		'ENGINE': 'django.db.backends.mysql',
 		'HOST': os.environ.get('DB_HOST') or '127.0.0.1',
-		'PORT': os.environ.get('DB_PORT') or '3309',
+		'PORT': os.environ.get('DB_PORT') or '3310',
 		'NAME': 'mb_api_db',
 		'USER': 'mysql',
 		'PASSWORD': 'password',

@@ -109,7 +109,7 @@ class ScreenSeatsView(ScreenViewMixin, ModelViewMixin, RetrieveAPIView):
 
 		status = self.request.query_params.get('status')
 		if not status:
-			return self.serializer_class({"seats": screen.get_seats()}).data
+			return Response(self.serializer_class({"seats": screen.get_seats()}).data)
 
 		if status == 'reserved':
 			return Response(self.serializer_class({"seats": screen.get_seats(booked_on__isnull=False)}).data)
