@@ -1,6 +1,11 @@
 # mb_api
 
-#### Steps to Run the project
+#### Steps to Run the project.
+
+#### Dependencies
+ - docker
+ - docker-compose
+
 
 Project is deployed with passenger/nginx, to handle requests and responses and mysql for database.
 
