@@ -2,9 +2,9 @@
 
 #### Steps to Run the project
 
-- Pull the project from github
+- Clone the project from github
 ```
-git pull origin master
+git https://github.com/deb999983/mb_api.git
 ```
 
 - CD into the webapp directory of the project
