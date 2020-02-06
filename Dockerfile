@@ -20,7 +20,7 @@ RUN rm -f /etc/service/nginx/down
 RUN rm /etc/nginx/sites-enabled/default
 
 
-ADD scripts/webapp.conf /etc/nginx/sites-enabled/webapp.conf
+ADD scripts/mb_api.conf /etc/nginx/sites-enabled/mb_api.conf
 
 
 # Enable python
@@ -31,8 +31,8 @@ RUN apt-get update && apt-get install -y \
 
 
 # Copy web application
-RUN mkdir /home/app/webapp
-COPY --chown=app:app . /home/app/webapp
+RUN mkdir /home/app/mb_api
+COPY --chown=app:app . /home/app/mb_api
 
 
 RUN pip3 install Django==2.1.7 \

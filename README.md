@@ -7,9 +7,9 @@
 git pull origin master
 ```
 
-- CD into the webapp directory of the project
+- CD into the mb_api directory of the project
 ```
-cd webapp
+cd mb_api
 ```
 
 - Build the service using docker-compose

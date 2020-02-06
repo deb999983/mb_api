@@ -1,5 +1,5 @@
 """
-WSGI config for webapp project.
+WSGI config for mb_api project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
